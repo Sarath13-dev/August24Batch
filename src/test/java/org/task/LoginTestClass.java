@@ -22,6 +22,11 @@ public class LoginTestClass {
 	public void testLogin(String username,String password) throws InterruptedException {
 			boolean loginSuccessful=performLogin(username, password);
 					Assert.assertEquals(loginSuccessful, true);
+					System.out.println("Work done by QA");
+					System.out.println("Running fine in Local");
+					System.out.println("QA Work");
+					
+					
 					
 	}
 	
